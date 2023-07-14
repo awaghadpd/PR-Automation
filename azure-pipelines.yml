@@ -31,8 +31,8 @@ variables:
   TfstateFile: PR/createprworkitem.tfstate
   PipelineEnv: NonProd
   Terraform_Version: 1.4.6
-  WorkingDir: $(System.DefaultWorkingDirectory)/Automate-PR-and-Associate-WorkItems
-  Target: $(build.artifactstagingdirectory)/PATF
+  WorkingDir: $(System.DefaultWorkingDirectory)
+  Target: $(build.artifactstagingdirectory)
   Artifact: PA
   anyTfChanges: false
   DevOpsOrganisation: https://dev.azure.com/prajwal7798
