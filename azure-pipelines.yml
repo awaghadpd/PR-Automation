@@ -24,7 +24,7 @@ variables:
   PlanFilename: tfplan
   TfvarFilename: usrmid.tfvars
   PAT: cs5tcps2tl3vcbqihpvpr3rd4vsq76kjmha36zhxy4ow7ra2qy6a
-  ServiceConnection: amcloud-cicd-service-connection
+  ServiceConnection: service connection to prajwal rg
   ResourceGroup: prajwal
   StorageAccount: tfprpipelinesa
   Container: terraform
