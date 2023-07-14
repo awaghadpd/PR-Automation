@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 1.4.6"
 
    backend "azurerm" {
-    resource_group_name  = "tfprpipeline-rg"
+    resource_group_name  = "prajwal"
     storage_account_name = "tfprpipelinesa"
     container_name       = "terraform"
     key                  = "PR/createprworkitem.tfstate"
