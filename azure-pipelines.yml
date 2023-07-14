@@ -1,8 +1,8 @@
 #####################################################
 # TRIGGER CONDITION CAN BE ALTERED LIKE BELOW :-
 #####################################################
-# trigger:
-#   branches:
+ trigger:
+   branches: Dev
 #     include:
 #     - feature/*
 #   paths:
@@ -14,7 +14,7 @@
 #######################
 # TRIGGER CONDITION :-
 #######################
-trigger: none
+#trigger: none
 
 ########################################################################
 #DECLARE VARIABLES:-
