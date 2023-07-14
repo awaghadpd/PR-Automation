@@ -25,7 +25,7 @@ variables:
   TfvarFilename: usrmid.tfvars
   PAT: cs5tcps2tl3vcbqihpvpr3rd4vsq76kjmha36zhxy4ow7ra2qy6a
   ServiceConnection: amcloud-cicd-service-connection
-  ResourceGroup: tfprpipeline-rg
+  ResourceGroup: prajwal
   StorageAccount: tfprpipelinesa
   Container: terraform
   TfstateFile: PR/createprworkitem.tfstate
