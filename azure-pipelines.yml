@@ -9,16 +9,16 @@
 #     include:
 #     - Automate-PR-and-Associate-WorkItems/*
 #####################################################
-trigger:
-  branches:
-    include:
-      - Dev
+#trigger:
+#  branches:
+#    include:
+#      - Dev
 
 
 #######################
 # TRIGGER CONDITION :-
 #######################
-#trigger: none
+trigger: none
 
 ########################################################################
 #DECLARE VARIABLES:-
