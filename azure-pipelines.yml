@@ -149,7 +149,7 @@ stages:
   - deployment: 
     displayName: Deploy
     environment: '$(PipelineEnv)'
-    pool: Default
+#    pool: Default
     strategy:
       runOnce:
         deploy:
