@@ -173,7 +173,7 @@ stages:
             inputs:
               provider: 'azurerm'
               command: 'init'
-              workingDirectory: '$(System.ArtifactsDirectory)/$(Artifact)/AMTF/'
+              workingDirectory: '$(System.ArtifactsDirectory)/$(Artifact)'
               backendServiceArm: '$(ServiceConnection)' 
               backendAzureRmResourceGroupName: '$(ResourceGroup)' 
               backendAzureRmStorageAccountName: '$(StorageAccount)'
@@ -185,7 +185,7 @@ stages:
             inputs:
               provider: 'azurerm'
               command: 'apply'
-              workingDirectory: '$(System.ArtifactsDirectory)/$(Artifact)/AMTF'
+              workingDirectory: '$(System.ArtifactsDirectory)/$(Artifact)'
               commandOptions: '--var-file=$(TfvarFilename)'
               environmentServiceNameAzureRM: '$(ServiceConnection)'
 
